@@ -1,0 +1,17 @@
+[[plugins]]
+repo = 'haya14busa/dein-command.vim'
+on_cmd = 'Dein'
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+on_cmd = 'Denite'
+depends = ['neomru.vim']
+hook_source = 'source $XDG_CONFIG_HOME/nvim/rc/denite.rc.vim'
+hook_add = '''
+'''
+
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
