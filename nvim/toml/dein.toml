@@ -13,3 +13,6 @@ repo = 'tomasr/molokai'
 
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'

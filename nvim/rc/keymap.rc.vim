@@ -1,4 +1,4 @@
-" 2019/11/05 kamato02 neoVimのキーマップ設定
+" 2021/08/10 neoVimのキーマップ設定
 
 " インサートモードを"jj"で終了
 inoremap <silent> jj <ESC>
@@ -13,3 +13,6 @@ noremap gk k
 noremap gj j
 noremap <Down> gj
 noremap <Up> gk
+
+" NERDTreeToggleの設定
+nmap <silent> <C-e> :NERDTreeToggle<CR>
